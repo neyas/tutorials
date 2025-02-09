@@ -1,0 +1,8 @@
+openai:
+  api:
+    key: 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
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB

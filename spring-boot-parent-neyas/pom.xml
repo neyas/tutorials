@@ -11,6 +11,8 @@
 
     <modules>
         <module>spring-docker-kubernetes</module>
+        <module>ai-converter</module>
+        <module>protobuf</module>
     </modules>
 
     <properties>
@@ -24,7 +26,7 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-parent</artifactId>
-                <version>3.3.2</version>
+                <version>3.3.5</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

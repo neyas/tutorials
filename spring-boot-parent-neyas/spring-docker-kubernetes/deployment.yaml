@@ -2,8 +2,10 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: spring-docker-kubernetes
+  labels:
+    app: spring-docker-kubernetes
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: spring-docker-kubernetes
